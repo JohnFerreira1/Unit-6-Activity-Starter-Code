@@ -5,8 +5,9 @@ const submitRequest = (Event) => {
   const artistName = document.getElementById("artist-name")
   event.preventDefault()
   const songRequest = (`${name.value} has requested ${songName.value} by ${artistName.value}`)
+  songRequest.innerHTML += 
 console.log(songRequest)
-
+  
 }
 
 const form = document.getElementById("request-form");
